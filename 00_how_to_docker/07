@@ -1,10 +1,1 @@
-# Получить ip-адресс контейнера overlord без запуска его shell'a и одной командой
-
-	# Команда: docker inspect -f '{{ .NetworkSettings.IPAdress }}' "name"
-	# Где
-	# Команда inspect - достает низкоуровневую инфу о докер объекте
-	# -f формат файла 
-	
-		# Мой вывод: 172.17.0.2
-	
 docker inspect -f '{{.NetworkSettings.IPAddress}}' overlord
