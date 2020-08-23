@@ -1,0 +1,7 @@
+# Запустить контейнер hello-world
+
+	# Команда: docker run hello-world
+
+		# При запуске мы получим сообщение "Hello from Docker!"
+
+docker run hello-world
